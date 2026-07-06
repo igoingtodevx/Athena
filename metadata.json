@@ -1,0 +1,6 @@
+{
+  "name": "Academic Paper Analyzer",
+  "description": "SOTA academic research platform utilizing hierarchical semantic grounding and multi-modal double-pass verification to analyze complex academic PDFs.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

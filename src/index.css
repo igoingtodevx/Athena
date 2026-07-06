@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Lora", Georgia, Cambria, serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  
+  --color-academic-cream: #fbfaf7;
+  --color-academic-paper: #f4f1ea;
+  --color-academic-ink: #1c1e21;
+  --color-academic-stone: #5c6370;
+  --color-academic-sepia: #8c7853;
+  --color-academic-amber: #b8860b;
+}
+
+/* Custom styling for LaTeX mathematical equations and academic scrollbars */
+.math-latex {
+  font-family: var(--font-mono);
+  background-color: var(--color-academic-paper);
+  border-left: 3px solid var(--color-academic-sepia);
+  padding: 0.5rem 1rem;
+  margin: 0.75rem 0;
+  border-radius: 0.25rem;
+  overflow-x: auto;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-academic-cream);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d4cfc1;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #b8b09b;
+}
